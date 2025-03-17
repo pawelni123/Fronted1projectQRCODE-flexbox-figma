@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', 'sans-serif';
+    line-height: 1.6;
+}
+
+.skills__container {
+    width: 1400px;
+    height: 960px;
+    margin: 0 auto;
+    background-color: #D5E1EF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skills__card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px 16px 40px 16px;
+    gap: 24px;
+    width: 320px;
+    height: 499px;
+    margin: auto;
+}
+
+.skills__card img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills__card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    padding: 0px 16px;
+}
+
+.skills__card-content h1 {
+    align-self: stretch;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.skills__card-content p {
+    align-self: stretch;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #68778D;
+}
+
+@media(max-width:375px) {
+    .skills__container {
+        width: 375px;
+        height: 812px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
